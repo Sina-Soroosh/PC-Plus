@@ -1,0 +1,202 @@
+main {
+    margin: 30px 0;
+}
+
+.conntent {
+    width: 97%;
+    margin: 15px auto;
+}
+
+.sum {
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    margin: 10px auto;
+    position: sticky;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px #5f5f5f62;
+}
+
+.sum .price {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5%;
+}
+
+.sum .btn button {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+    padding: 5px;
+    color: #fff;
+    background: #3d9970;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sum .btn button:hover {
+    background-color: #307e5b;
+}
+
+.proudcts {
+    border-radius: 10px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+}
+
+.proudct {
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.proudct .name {
+    padding: 5px 10px;
+}
+
+.proudct a {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.proudct .img {
+    width: 65%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.proudct .img img {
+    width: 100%;
+}
+
+.proudct .price-cunt {
+    border-top: 1px solid #dfdfdf;
+    margin: 15px 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proudct .price-cunt .cunt {
+    display: flex;
+    gap: 10px;
+}
+
+.price-cunt .cunt .change-cunt {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cunt .change-cunt .plus-mins,
+.cunt #delete {
+    display: flex;
+    padding: 7px;
+    background-color: #3d9970;
+    border-radius: 100%;
+    color: #fff;
+    border-radius: 100%;
+    border: 2px solid #dfdfdf;
+    cursor: pointer;
+}
+
+.cunt #delete {
+    background-color: #c42525;
+}
+
+.swal2-confirm {
+    background-color: #c42525 ;
+    outline: none !important;
+    border: none !important;
+}
+
+.swal2-cancel {
+    background-color: #3d9970 !important;
+}
+
+.error {
+    width: 97%;
+    text-align: center;
+    padding: 5%;
+    background: #fff3cd;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: #856404;
+}
+
+.error div {
+    font-size: 40px;
+}
+
+.error p {
+    font-size: 23px;
+}
+
+@media screen and (min-width : 768px) {
+    .conntent {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .sum {
+        display: inline-block;
+        width: 35%;
+        top: 15px;
+        margin-right: 2%;
+    }
+
+    .proudcts {
+        width: 60%;
+        display: inline-block;
+    }
+
+    .proudct {
+        display: flex;
+    }
+
+    .proudct a {
+        text-align: right;
+    }
+
+    .proudct .img {
+        width: auto;
+        max-width: auto;
+        margin: 0 10px;
+        padding: 0 10px;
+        border-left: 1px solid #dfdfdf;
+        display: flex;
+        align-items: center;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .proudct .price-cunt {
+        width: 80%;
+        border: none;
+    }
+
+    .proudct .img img {
+        width: 100px;
+    }
+
+    .price-cunt .price {
+        text-align: right;
+        margin: 0 10px 15px 0;
+    }
+    .proudct .price-cunt{
+        display: block;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .proudct .img img {
+        width: 200px;
+    }
+}

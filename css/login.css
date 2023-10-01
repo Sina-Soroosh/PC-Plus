@@ -1,0 +1,75 @@
+main {
+    margin: 30px 0;
+}
+
+.box-login {
+    margin: 15px auto;
+}
+
+.box-login .widget {
+    width: 97%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px 3%;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+}
+
+.box-login .widget .text-container {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0 0 10px 0;
+}
+
+.box-login .login {
+    text-align: right;
+}
+.box-login div  p{
+    text-align: right;
+    margin: 10px 0 0 0;
+}
+.box-login div input {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+    direction: ltr;
+}
+.box-login div input:focus{
+    letter-spacing: 3px; 
+    border: 1px solid #3d9970;
+}
+.box-login div button {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3d9970;
+    cursor: pointer;
+}
+.box-login div button:hover{
+    background-color: #316d52;
+}
+.login-by-code{
+    display: none;
+}
+.login-by-code span{
+    cursor: pointer;
+    display: block;
+    margin: 20px 0 0 0;
+    color: #7c7c7c;
+    font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+    .box-login{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .box-login{
+        width: 50%;
+    }
+}

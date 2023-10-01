@@ -1,0 +1,39 @@
+main {
+    margin: 30px auto;
+}
+
+.card {
+    width: 97%;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 20px 3%;
+    text-align: center;
+    color: #4c5e60;
+}
+
+.card .head-title h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.box{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.box h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.box ul {
+    padding:0 20px ;
+    margin-top:20px ;
+}
+.box ul li{
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+.box-2 h2:first-child{
+    color: #3d9970;
+}

@@ -1,0 +1,188 @@
+main {
+    margin-top: 30px;
+}
+
+.images {
+    text-align: center;
+}
+
+.slider-img2 {
+    display: none;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #000 !important;
+}
+
+.bread-crumb nav ol {
+    display: flex;
+    padding-right: 3%;
+}
+
+.breadcrumb a {
+    color: #000;
+    margin-right: 10px;
+}
+
+.container {
+    width: 97%;
+    margin: 15px auto;
+    background-color: #fff;
+    padding: 10px 3%;
+    border-radius: 10px;
+    border: 1px solid #dfdfdf;
+}
+
+.name {
+    margin: 20px 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.name h5 a {
+    color: #3d9970;
+}
+
+.name h2 {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.code p {
+    color: #585858;
+    font-size: 15px;
+}
+
+.btn-price {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: end;
+}
+
+.btn-price button {
+    padding: 10px;
+    background: #3d9970;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.produckalats-tab {
+    width: 97%;
+    margin: 20px auto;
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#pills-tab {
+    margin: 0 0 15px 0;
+}
+
+#pills-tab li {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#pills-tab li a {
+    color: #3d9970;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid;
+}
+
+.properties-title {
+    font-size: 14px;
+}
+
+.properties {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.properties td:first-child {
+    width: 22%;
+}
+
+.TheGreen {
+    color: #006b06;
+}
+
+.TheRed {
+    color: #df1e2f;
+}
+
+.properties td {
+    border: 3px solid #fff;
+    padding: 5px 10px 5px 5px;
+    font-size: 13px;
+    line-height: initial;
+    color: #636363;
+    background-color: #f5f5f5;
+}
+
+@media screen and (min-width: 768px) {
+    .row {
+        display: flex;
+    }
+
+    .name-btn-price {
+        margin-right: 20px;
+        width: 80%;
+    }
+
+    .name-btn-price .name {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .images {
+        display: inline-block;
+        width: 20%;
+        border-left: 1px solid #dfdfdf;
+    }
+
+    .images img {
+        width: 100%;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .slider-img2 {
+        display: block;
+    }
+
+    .slider-img2 .swiper-wrapper {
+        justify-content: center;
+    }
+
+    .slider-img2 .img {
+        cursor: pointer;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        display: flex;
+    }
+
+    .slider-img2 img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .images {
+        width: 18%;
+    }
+
+    .name-btn-price {
+        width: 82%;
+    }
+}
