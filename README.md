@@ -2,7 +2,7 @@
 
 > Developed a website for selling computer parts called PC+ using html, css, and js.
 
-## [Live Demo](https://pc-plus.iran.liara.run/)
+## [Live Demo](https://pc-plus.vercel.app/)
 
 ## Built With
 
